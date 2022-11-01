@@ -56,7 +56,11 @@ export default {
 			this.chart.setOption({
 				title: {
 				    text: "雷达图",
-						left:'center'
+						left:'center',
+						textStyle:{
+							fontSize:15,
+							color:'#777'
+						}
 				  },
 				  tooltip: {},
 				  legend: {

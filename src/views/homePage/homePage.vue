@@ -4,6 +4,8 @@
 		<echart-item-line></echart-item-line>
 		<echart-item-pie></echart-item-pie>
 		<echart-item-radar></echart-item-radar>
+		<echart-item-dot></echart-item-dot>
+		<echart-item-circle></echart-item-circle>
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import echartItemBar from '@/components/echart-item-bar'
 import echartItemLine from '@/components/echart-item-line'
 import echartItemPie from '@/components/echart-item-pie'
 import echartItemRadar from '@/components/echart-item-radar'
+import echartItemDot from '@/components/echart-item-dot'
+import echartItemCircle from '@/components/echart-item-circle'
 
 export default {
   name: 'home',
@@ -20,7 +24,9 @@ export default {
 		echartItemBar,
 		echartItemLine,
 		echartItemPie,
-		echartItemRadar
+		echartItemRadar,
+		echartItemDot,
+		echartItemCircle
 	},
 	data(){
 		return{
