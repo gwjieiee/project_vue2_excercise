@@ -70,7 +70,7 @@ export default {
 				// console.log(this.$route)
 				let route = this.$route.path
 				if(route === e){
-					console.log(this.$router)
+					// console.log(this.$router)
 				}else{
 					this.$router.push(e)
 				}

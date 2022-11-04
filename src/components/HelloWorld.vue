@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-    <!-- <div>hellow</div>
-		<router-view></router-view> -->
-		<navbar-item></navbar-item>
+    <navbar-item></navbar-item>
 		<main-item></main-item>
 		<footer-item></footer-item>
   </div>
