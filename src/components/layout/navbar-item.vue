@@ -41,13 +41,13 @@ export default {
 					name:'我的工作台',
 					path:'工作台',
 					child:[
-						{name:'1',path:'/spaceOne'},
-						{name:'2',path:'/spaceTwo'},
+						{name:'模拟sku',path:'/spaceOne'},
+						{name:'富文本',path:'/spaceTwo'},
 						{
-							name:'3',
+							name:'暂未规划',
 							path:'3',
 							child:[
-								{name:'111',path:'1'},
+								{name:'111',path:'/spaceThree'},
 								{name:'222',path:'2'}
 							]
 						}

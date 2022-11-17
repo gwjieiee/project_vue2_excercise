@@ -42,6 +42,17 @@ const routes = [
 			}
 		]
 	},
+	{
+		//空间3
+		path:'/spaceThree',
+		component:HelloWorld,
+		children:[
+			{
+				path:'',
+				component: () => import('@/views/workspace/spaceThree')
+			}
+		]
+	},
 	
 ]
 

@@ -1,6 +1,6 @@
 <template>
 	<div class="content">
-		<h4>模拟sku</h4><br/>
+		<h4>暂未规划</h4><br/>
 		<label>颜色:</label>
 		<div class="sku-row">
 			<span :class="choose_color == tag ? 'active':'tag-item'" 
