@@ -1,0 +1,20 @@
+1.安装vue-cli      npm install -g @vue/cli
+2.创建项目          vue init webpack project1
+3.安装vuex         npm install vuex@next --save
+4.在装axios        npm install axios
+5.安装	element-ui（npm i element-ui -S），
+	echarts（npm install echarts --save），
+	pdfjs-dist（npm install pdfjs-dist），
+	vue-baidu-map（npm install vue-baidu-map --save）等插件
+
+富文本编辑器
+      wangEditor
+      安装：npm install @wangeditor/editor --save
+	npm install @wangeditor/editor-for-vue --save	
+
+
+
+
+
+
+
